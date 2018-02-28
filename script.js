@@ -16,7 +16,7 @@ L.tileLayer(tiles, {
 
 var hash = new L.Hash(map)
 
-var STREETMIX_GEOJSON = ''
+var STREETMIX_GEOJSON = 'https://streetmix.net/api/v1/geo/'
 
 window.fetch(STREETMIX_GEOJSON)
   .then(function (response) {
